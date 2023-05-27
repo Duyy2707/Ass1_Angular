@@ -25,20 +25,20 @@
       "id": 4
     },
     {
-      "name": "Văn",
+      "name": "Văn update",
       "price": 222,
       "img": "https://picsum.photos/200",
       "id": 5
     },
     {
-      "name": "test1",
+      "name": "Duy",
       "price": 1234,
       "img": "https://picsum.photos/200",
       "id": 6
     },
     {
-      "name": "test2",
-      "price": 124,
+      "name": "test",
+      "price": 123,
       "img": "https://picsum.photos/200",
       "id": 7
     }

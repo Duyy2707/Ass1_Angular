@@ -1,0 +1,21 @@
+<button class="btn btn-primary " routerLink="add">Thêm</button>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products; index as i" >
+        <th scope="row">{{i+1}}</th>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td><img src="{{product.img}}" alt=""></td>
+        <td><button class="btn btn-danger" (click)="removeItem(product.id)">Xóa</button></td>
+        <td><button class="btn btn-primary" routerLink="{{product.id}}/edit">Sửa</button></td>
+      </tr>
+    </tbody>
+  </table>
